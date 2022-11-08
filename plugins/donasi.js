@@ -9,8 +9,8 @@ const catalog = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 "product": {
 "productImage": messa.imageMessage, 
 "productId": "5489299044451325",
-"title": `Jasa Sewa Yushino Md`,
-"description": `HALO BANG`,
+"title": `Jasa Sewa R-BOT V2`,
+"description": `HALO Cuy`,
 "currencyCode": "IDR",
 "bodyText": wm,
 "footerText": wm,
