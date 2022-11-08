@@ -1,11 +1,11 @@
 {
   "users": {
-    "6285371753939@s.whatsapp.net": {
-      "exp": 8,
-      "limit": 100,
+    "6282142108243@s.whatsapp.net": {
+      "exp": 8988,
+      "limit": 10000000000000,
       "lastclaim": 0,
       "registered": false,
-      "name": "Pipit Syahfitri",
+      "name": "Rama",
       "pasangan": "",
       "age": -1,
       "regTime": -1,
@@ -16,7 +16,7 @@
       "level": 0,
       "role": "Bronze V",
       "autolevelup": true,
-      "money": 0,
+      "money": 100000000000,
       "bank": 0,
       "atm": 0,
       "fullatm": 0,
@@ -218,7 +218,7 @@
       "premiumTime": 0,
       "limitjoin": 0
     },
-    "6281361281833@s.whatsapp.net": {
+    "6282142108243@s.whatsapp.net": {
       "exp": 242,
       "limit": 100,
       "lastclaim": 0,
@@ -5753,7 +5753,7 @@
     }
   },
   "chats": {
-    "6285371753939@s.whatsapp.net": {
+    "6282142108243@s.whatsapp.net": {
       "isBanned": false,
       "welcome": true,
       "detect": false,
@@ -5770,7 +5770,7 @@
       "nsfw": false,
       "premnsfw": false
     },
-    "6281361281833@s.whatsapp.net": {
+    "6282142108243@s.whatsapp.net": {
       "isBanned": false,
       "welcome": true,
       "detect": false,

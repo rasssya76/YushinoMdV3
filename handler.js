@@ -30,7 +30,7 @@ export async function handler(chatUpdate) {
     this.pushMessage(chatUpdate.messages).catch(console.error)
     let m = chatUpdate.messages[chatUpdate.messages.length - 1]
     
-    global.img = 'https://telegra.ph/file/e4a2f4339da8a32ad20a1.jpg' 
+    global.img = 'https://telegra.ph/file/6e6327db00a59814f299c.jpg' 
     
     if (!m)
         return
@@ -714,19 +714,10 @@ export async function participantsUpdate({ id, participants, action }) {
     sourceUrl: sgc
      }}
   })*/
-  let welcom = 'https://telegra.ph/file/35f17bb371d308504bc46.jpg'
+  let welcom = 'https://telegra.ph/file/6e6327db00a59814f299c.jpg'
 
-  let godbye = 'https://telegra.ph/file/b44e48066aed4fb7ad291.jpg'
-  conn.sendButtonImg(id, await(await fetch(action === 'add' ? wel : lea)).buffer(), 'Group Messege', text, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'Aʟᴅɪ X Aɪsʏᴀʜ', fkontak, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: 'https://instagram.com',
-    mediaType: 2, 
-    description: sgc,
-    title: "Jᴏɪɴ Sɪɴɪ Cᴜʏ",
-    body: wm,
-    thumbnail: await(await fetch(action === 'add' ? welcom : godbye)).buffer(),
-    sourceUrl: sgc
-     }}
-  })
+  let godbye = 'https://telegra.ph/file/6e6327db00a59814f299c.jpg'
+  conn.send3TemplateButtonImg(id, action === 'add' ? wel : lea, 'text', 'Group Messege',  action === 'add' ? 'Welcome' : 'Byee', action === 'add' ? '.intro' : 'y')
   
                     }
                 }
